@@ -5,7 +5,6 @@ E:\C# Course\Projects and Tasks\LinkedList\LinkedList\bin\Debug\net5.0\LinkedLis
 E:\C# Course\Projects and Tasks\LinkedList\LinkedList\bin\Debug\net5.0\LinkedList.dll
 E:\C# Course\Projects and Tasks\LinkedList\LinkedList\bin\Debug\net5.0\ref\LinkedList.dll
 E:\C# Course\Projects and Tasks\LinkedList\LinkedList\bin\Debug\net5.0\LinkedList.pdb
-E:\C# Course\Projects and Tasks\LinkedList\LinkedList\obj\Debug\net5.0\LinkedList.csproj.AssemblyReference.cache
 E:\C# Course\Projects and Tasks\LinkedList\LinkedList\obj\Debug\net5.0\LinkedList.GeneratedMSBuildEditorConfig.editorconfig
 E:\C# Course\Projects and Tasks\LinkedList\LinkedList\obj\Debug\net5.0\LinkedList.AssemblyInfoInputs.cache
 E:\C# Course\Projects and Tasks\LinkedList\LinkedList\obj\Debug\net5.0\LinkedList.AssemblyInfo.cs
@@ -14,3 +13,4 @@ E:\C# Course\Projects and Tasks\LinkedList\LinkedList\obj\Debug\net5.0\LinkedLis
 E:\C# Course\Projects and Tasks\LinkedList\LinkedList\obj\Debug\net5.0\ref\LinkedList.dll
 E:\C# Course\Projects and Tasks\LinkedList\LinkedList\obj\Debug\net5.0\LinkedList.pdb
 E:\C# Course\Projects and Tasks\LinkedList\LinkedList\obj\Debug\net5.0\LinkedList.genruntimeconfig.cache
+E:\C# Course\Projects and Tasks\LinkedList\LinkedList\obj\Debug\net5.0\LinkedList.csproj.AssemblyReference.cache

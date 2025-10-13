@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Recursion
 {
@@ -37,7 +38,7 @@ namespace Recursion
             return left < right ? left : right;
         }
 
-        public static int Sum(List<int> list)
+        public static int Sum(List<int> list) 
         {
             int n = list.Count;
             //Base Case
@@ -74,19 +75,29 @@ namespace Recursion
         public static List<int> QuickSort(List<int> list)
         {
             int n = list.Count;
-            List<int> sortedList = new List<int>();
             //Base Case
-            if (n == 1)
+            if (n < 2)
             {
                 return list;
             }
             //Recursion Case
-            int pivot = n / 2;
-            List<int> left = QuickSort(list.GetRange(0, pivot));
-            List<int> right = QuickSort(list.GetRange(pivot, n - pivot));
+            else
+            {
+                int pivot = list[0];
+                List<int> less = list.Skip(1).Where(i => i <= pivot).ToList();
+                List<int> greater = list.Skip(1).Where(i => i > pivot).ToList();
+                List<int> sorted = new List<int>();
+                sorted.AddRange(QuickSort(less));
+                sorted.Add(pivot);
+                sorted.AddRange(QuickSort(greater));
+                return sorted;
+            }
+        }
 
-            sortedList.Add(pivot);
-            return sortedList;
+        public static int QuickSearch(List<int> list,int k)//3
+        {
+            List<int> sortedList = QuickSort(list);
+            return sortedList[k - 1];
         }
 
     }
